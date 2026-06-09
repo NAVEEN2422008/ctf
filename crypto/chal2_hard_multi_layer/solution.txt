@@ -1,0 +1,21 @@
+
+# Solution (Author Writeup)
+
+Steps:
+
+1. Identify AES ECB mode
+2. Derive key:
+   sha256("hidden_seed")[:16]
+
+3. Remove noise (first & last bytes)
+4. Decrypt AES
+5. Remove padding
+6. Reverse base64 encoding
+7. Reverse XOR (0x42)
+
+Finally recover flag.
+
+Key difficulty:
+- Multi-layer reversing
+- Noise removal
+- Obfuscation

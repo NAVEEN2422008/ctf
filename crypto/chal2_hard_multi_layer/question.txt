@@ -1,0 +1,22 @@
+
+# 🕵️‍♂️ The Lazy Hacker's Encryption (Hard)
+
+A hacker named "0xLazy" created a "super secure encryption system"
+after watching 3 YouTube videos at 2x speed.
+
+He claims:
+"My encryption has MULTIPLE layers bro, totally unbreakable 😎"
+
+You intercepted:
+- His encryption script
+- The encrypted output
+
+But something feels... off.
+
+Your mission:
+Break all layers and recover the flag.
+
+Warning:
+The hacker added random noise to confuse you 🤡
+
+Submit flag in format: CTF{...}

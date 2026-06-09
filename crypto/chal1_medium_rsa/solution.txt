@@ -1,0 +1,14 @@
+
+# Solution (Author Writeup)
+
+1. Notice RSA modulus n is weak (imbalanced primes)
+2. Factor n using trial division or Fermat
+3. Compute phi(n)
+4. Compute d = inverse(e, phi)
+5. Decrypt c
+
+Tools:
+- Python (Crypto.Util.number)
+- factordb (optional)
+
+This works because one prime is small.

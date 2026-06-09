@@ -1,0 +1,13 @@
+
+# 🐒 Banana Bank Security Breach (Medium)
+
+The Banana Bank security team hired a monkey to generate RSA keys.
+Unfortunately, the monkey really likes small numbers 🍌.
+
+Your mission:
+Recover the secret flag from the intercepted encrypted message.
+
+Hint:
+"One of the primes is suspiciously small… maybe monkey-sized."
+
+Submit the flag in format: CTF{...}
